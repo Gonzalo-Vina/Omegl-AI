@@ -25,7 +25,7 @@ public class ChatController : MonoBehaviour
     private bool haveImagePerson;
 
     //ENTER YOUR API KEY HERE:
-    private OpenAIApi openAI = new OpenAIApi("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");
+    private OpenAIApi openAI = new OpenAIApi();
 
     private string askPrompt = "Act as a random person in a chat room and answer the questions.\nQ: Tell me who you are. Name, age, skin color, hair color, eye color.\nA: ";
 
