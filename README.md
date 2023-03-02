@@ -1,10 +1,9 @@
 # Omegl-AI
 
 To make the script work, you must place your 'API key' in the creation of the 'openAI' attribute on line 28. For example:
-//ENTER YOUR API KEY HERE:
-    private OpenAIApi openAI = new OpenAIApi('XX-XXXXXXXXXXXXXXXXXXXXX');
+private OpenAIApi openAI = new OpenAIApi('XX-XXXXXXXXXXXXXXXXXXXXX');
     
-
+The askPrompt attribute should store the questions and answers, using 'Q:' for the question and 'A:' for the answer, both separated by a line break using '\n'.
  
 ----- WEBGL ISSUE -----
 
